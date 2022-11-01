@@ -5,7 +5,7 @@
   "main": "src/index.js",
   "type": "module",
   "scripts": {
-    "start": "nodemon src/index.js t=timecodes.txt s=d:\\ffmpeg\\bin\\input.mp4",
+    "start": "nodemon",
     "debug": "nodemon inspect",
     "once": "node src/index.js e=asdf i=content.txt"
   },
