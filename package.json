@@ -5,8 +5,9 @@
   "main": "src/index.js",
   "type": "module",
   "scripts": {
-    "start": "nodemon comeau.mjs",
-    "nodebug": "node --inspect-brk comeau.mjs"
+    "start": "nodemon src/index.js t=timecodes.txt s=d:\\ffmpeg\\bin\\input.mp4",
+    "debug": "nodemon inspect",
+    "once": "node src/index.js e=asdf i=content.txt"
   },
   "keywords": [],
   "author": "",
